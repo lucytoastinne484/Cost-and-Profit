@@ -1,0 +1,43 @@
+
+class Gastos():
+    def __init__(self):
+        super.__init__(self)
+        self.earn = 1600
+        self.energy = 200
+        self.water = 200
+        self.iptu = 145.0
+        self.odonto = 54.99
+        self.passagem = 200.0
+        self.cel = 50.0
+        self.check_up = 214.27
+        
+        def Rx(self,value,period):
+            self.total_rx = value
+            self.time_1 = period
+            
+            rx_total = value*period
+
+
+class Costs():
+    
+    def __init__(self,earn,energy,water,iptu,odonto,passagem,cel,check_up):
+        self.earn = earn
+        self.energy = energy
+        self.water = water
+        self.iptu = iptu
+        self.odonto = odonto
+        self.passagem = passagem
+        self.cel = cel
+        self.check_up = check_up
+
+class Costs:
+    
+    def __init__(self,earn,total_cost,vital):
+        self.earn = earn
+        self.total_cost = total_cost
+        self.vital = vital
+    def rx(self):
+        print("Your recipe most likely is: ",self.earn)
+        return self.earn
+    def cx(total_cost):
+        print("Your total cost is: ",total_cost)
